@@ -3,9 +3,25 @@
 github.com/dimfeld/httptreemux
 # github.com/fsnotify/fsnotify v1.6.0
 ## explicit; go 1.16
+github.com/fsnotify/fsnotify
 # github.com/gorilla/securecookie v0.0.0-20150820082958-e95799a481bb
 ## explicit
 github.com/gorilla/securecookie
+# github.com/hashicorp/hcl v1.0.0
+## explicit
+github.com/hashicorp/hcl
+github.com/hashicorp/hcl/hcl/ast
+github.com/hashicorp/hcl/hcl/parser
+github.com/hashicorp/hcl/hcl/printer
+github.com/hashicorp/hcl/hcl/scanner
+github.com/hashicorp/hcl/hcl/strconv
+github.com/hashicorp/hcl/hcl/token
+github.com/hashicorp/hcl/json/parser
+github.com/hashicorp/hcl/json/scanner
+github.com/hashicorp/hcl/json/token
+# github.com/joho/godotenv v1.4.0
+## explicit; go 1.12
+github.com/joho/godotenv
 # github.com/kabukky/feeds v0.0.0-20151110114325-c7025aca4568
 ## explicit
 github.com/kabukky/feeds
@@ -15,9 +31,24 @@ github.com/kabukky/httpscerts
 # github.com/kardianos/osext v0.0.0-20151222153229-29ae4ffbc9a6
 ## explicit
 github.com/kardianos/osext
+# github.com/magiconair/properties v1.8.6
+## explicit; go 1.13
+github.com/magiconair/properties
 # github.com/mattn/go-sqlite3 v1.2.1-0.20170118172042-7ed900a7c4cc
 ## explicit
 github.com/mattn/go-sqlite3
+# github.com/mitchellh/mapstructure v1.5.0
+## explicit; go 1.14
+github.com/mitchellh/mapstructure
+# github.com/pelletier/go-toml v1.9.5
+## explicit; go 1.12
+github.com/pelletier/go-toml
+# github.com/pelletier/go-toml/v2 v2.0.5
+## explicit; go 1.16
+github.com/pelletier/go-toml/v2
+github.com/pelletier/go-toml/v2/internal/ast
+github.com/pelletier/go-toml/v2/internal/danger
+github.com/pelletier/go-toml/v2/internal/tracker
 # github.com/russross/blackfriday v0.0.0-20160531111224-1d6b8e9301e7
 ## explicit
 github.com/russross/blackfriday
@@ -27,25 +58,69 @@ github.com/satori/go.uuid
 # github.com/shurcooL/sanitized_anchor_name v0.0.0-20151028001915-10ef21a441db
 ## explicit
 github.com/shurcooL/sanitized_anchor_name
+# github.com/spf13/afero v1.8.2
+## explicit; go 1.13
+github.com/spf13/afero
+github.com/spf13/afero/mem
+# github.com/spf13/cast v1.5.0
+## explicit; go 1.18
+github.com/spf13/cast
+# github.com/spf13/jwalterweatherman v1.1.0
+## explicit
+github.com/spf13/jwalterweatherman
+# github.com/spf13/pflag v1.0.5
+## explicit; go 1.12
+github.com/spf13/pflag
+# github.com/spf13/viper v1.13.0
+## explicit; go 1.17
+github.com/spf13/viper
+github.com/spf13/viper/internal/encoding
+github.com/spf13/viper/internal/encoding/dotenv
+github.com/spf13/viper/internal/encoding/hcl
+github.com/spf13/viper/internal/encoding/ini
+github.com/spf13/viper/internal/encoding/javaproperties
+github.com/spf13/viper/internal/encoding/json
+github.com/spf13/viper/internal/encoding/toml
+github.com/spf13/viper/internal/encoding/yaml
+# github.com/subosito/gotenv v1.4.1
+## explicit; go 1.18
+github.com/subosito/gotenv
 # github.com/yuin/gopher-lua v0.0.0-20170119023643-66c871e454fc
 ## explicit
 github.com/yuin/gopher-lua
 github.com/yuin/gopher-lua/ast
 github.com/yuin/gopher-lua/parse
 github.com/yuin/gopher-lua/pm
-# golang.org/x/crypto v0.0.0-20170930174604-9419663f5a44
-## explicit
+# golang.org/x/crypto v0.0.0-20220411220226-7b82a4e95df4
+## explicit; go 1.17
 golang.org/x/crypto/acme
 golang.org/x/crypto/acme/autocert
 golang.org/x/crypto/bcrypt
 golang.org/x/crypto/blowfish
-# golang.org/x/net v0.0.0-20160322021652-4876518f9e71
-## explicit
+# golang.org/x/net v0.0.0-20220520000938-2e3eb7b945c2
+## explicit; go 1.17
 golang.org/x/net/context
+golang.org/x/net/idna
 # golang.org/x/sys v0.0.0-20220908164124-27713097b956
 ## explicit; go 1.17
 golang.org/x/sys/internal/unsafeheader
 golang.org/x/sys/unix
+golang.org/x/sys/windows
+# golang.org/x/text v0.3.7
+## explicit; go 1.17
+golang.org/x/text/secure/bidirule
+golang.org/x/text/transform
+golang.org/x/text/unicode/bidi
+golang.org/x/text/unicode/norm
 # gopkg.in/fsnotify.v1 v1.4.2
 ## explicit
 gopkg.in/fsnotify.v1
+# gopkg.in/ini.v1 v1.67.0
+## explicit
+gopkg.in/ini.v1
+# gopkg.in/yaml.v2 v2.4.0
+## explicit; go 1.15
+gopkg.in/yaml.v2
+# gopkg.in/yaml.v3 v3.0.1
+## explicit
+gopkg.in/yaml.v3
