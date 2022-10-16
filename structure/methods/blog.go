@@ -10,7 +10,7 @@ import (
 	"log"
 )
 
-// Global blog - thread safe and accessible by all requests
+// Blog Global blog - thread safe and accessible by all requests
 var Blog *structure.Blog
 
 var assetPath = []byte("/assets/")

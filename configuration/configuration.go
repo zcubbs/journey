@@ -11,7 +11,7 @@ import (
 	"github.com/kabukky/journey/filenames"
 )
 
-// Configuration: settings that are neccesary for server configuration
+// Configuration settings that are neccesary for server configuration
 type Configuration struct {
 	HttpHostAndPort  string
 	HttpsHostAndPort string

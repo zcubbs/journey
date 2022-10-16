@@ -1,4 +1,4 @@
-// +build !noplugins
+//go:build !noplugins
 
 package plugins
 
