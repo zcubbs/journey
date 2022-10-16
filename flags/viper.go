@@ -25,7 +25,7 @@ var (
 	configType  = "yaml"
 	configPaths = []string{
 		".",
-		fmt.Sprintf("%s/.oauth-showcase", getUserHomePath()),
+		fmt.Sprintf("%s/.journey", getUserHomePath()),
 	}
 )
 
